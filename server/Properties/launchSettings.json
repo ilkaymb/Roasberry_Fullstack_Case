@@ -1,0 +1,51 @@
+﻿{
+  "$schema": "https://json.schemastore.org/launchsettings.json",
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:26887",
+      "sslPort": 44306
+    }
+  },
+  "profiles": {
+    "http": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "applicationUrl": "http://localhost:5232",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "SHOPIFY_URL":"dashboard-example.myshopify.com",
+"SHOPIFY_API_VERSION":"2023-10",
+"SHOPIFY_ACCESS_TOKEN":"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",
+      }
+    },
+    "https": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "applicationUrl": "http://localhost:7046;http://localhost:5232",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "SHOPIFY_URL":"dashboard-example.myshopify.com",
+"SHOPIFY_API_VERSION":"2023-10",
+"SHOPIFY_ACCESS_TOKEN":"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",
+      }
+    },
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "SHOPIFY_URL":"dashboard-example.myshopify.com",
+"SHOPIFY_API_VERSION":"2023-10",
+"SHOPIFY_ACCESS_TOKEN":"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",
+
+      }
+    }
+  }
+}
