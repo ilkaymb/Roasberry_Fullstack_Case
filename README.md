@@ -1,4 +1,9 @@
-# Shopify API Kullanarak React frontend'li, .Net Backend'li bir projedir.
+# Shopify API Kullanarak React frontend'li ve .Net Backend'li bir dashboard projedir.
+
+## Kullanılan Kütüphane ve paketler:
+1. Tailwind Css: UI Kütüphanesi
+2. React Icons: Iconlar İçin
+3. Victory: Veri Tabloları için.
 
 ## Yapılanlar:
 1. Frontend Arayüzü ve Responsive tasarım
